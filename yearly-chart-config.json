@@ -1,0 +1,54 @@
+{
+    "reportType": "yearly",
+    "charts": [
+      {
+        "id": "yearlyCostBreakdownChart",
+        "function": "createCostBreakdownChart",
+        "canvasId": "yearlyCostBreakdownChart",
+        "data": {
+          "vsData": [0, 0, 0, 0, 0],
+          "pinkData": [0, 0, 0, 0, 0]
+        }
+      },
+      {
+        "id": "yearlyBrandComparisonChart",
+        "function": "createBrandComparisonChart",
+        "canvasId": "yearlyBrandComparisonChart",
+        "data": {
+          "labels": ["Q1", "Q2", "Q3", "Q4"],
+          "vsData": [0, 0, 0, 0],
+          "pinkData": [0, 0, 0, 0]
+        }
+      },
+      {
+        "id": "yearlyOperationalGapChart",
+        "function": "createOperationalGapChart",
+        "canvasId": "yearlyOperationalGapChart",
+        "data": {
+          "labels": ["On-Time Delivery (%)", "Order Accuracy (%)", "Sample Lead Time (days)", "FOC Incidents", "FOC Rate (%)"],
+          "actualData": [0, 0, 0, 0, 0], 
+          "targetData": [0, 0, 0, 0, 0]
+        }
+      },
+      {
+        "id": "yearlyWalletShareChart",
+        "function": "createWalletShareChart",
+        "canvasId": "yearlyWalletShareChart",
+        "data": {
+          "labels": ["VS Flannel", "VS Other", "PINK Flannel", "PINK Lyocell", "PINK Celia", "PINK Other"],
+          "kahatexData": [0, 0, 0, 0, 0, 0],
+          "competitorData": [0, 0, 0, 0, 0, 0]
+        }
+      },
+      {
+        "id": "yearlyRecoveryForecastChart",
+        "function": "createRecoveryForecastChart",
+        "canvasId": "yearlyRecoveryForecastChart",
+        "data": {
+          "labels": ["Q1", "Q2", "Q3", "Q4"],
+          "deliveryData": [0, 0, 0, 0],
+          "revenueData": [0, 0, 0, 0] 
+        }
+      }
+    ]
+  }

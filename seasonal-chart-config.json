@@ -1,0 +1,54 @@
+{
+    "reportType": "seasonal",
+    "charts": [
+      {
+        "id": "costBreakdownChart",
+        "function": "createCostBreakdownChart",
+        "canvasId": "costBreakdownChart",
+        "data": {
+          "vsData": [0, 0, 0, 0, 0],
+          "pinkData": [0, 0, 0, 0, 0]
+        }
+      },
+      {
+        "id": "brandComparisonChart",
+        "function": "createBrandComparisonChart",
+        "canvasId": "brandComparisonChart",
+        "data": {
+          "labels": ["Yarn-Dyed", "Yarn-Dyed + Metallic", "Reactive Print", "Foil Print"],
+          "vsData": [0, 0, 0, 0],
+          "pinkData": [0, 0, 0, 0]
+        }
+      },
+      {
+        "id": "operationalGapChart",
+        "function": "createOperationalGapChart",
+        "canvasId": "operationalGapChart",
+        "data": {
+          "labels": ["On-Time Delivery (%)", "Order Accuracy (%)", "Sample Lead Time (days)", "FOC Incidents", "FOC Rate (%)"],
+          "actualData": [0, 0, 0, 0, 0], 
+          "targetData": [0, 0, 0, 0, 0]
+        }
+      },
+      {
+        "id": "walletShareChart",
+        "function": "createWalletShareChart",
+        "canvasId": "walletShareChart",
+        "data": {
+          "labels": ["VS Flannel", "VS Other", "PINK Flannel", "PINK Lyocell", "PINK Celia", "PINK Other"],
+          "kahatexData": [0, 0, 0, 0, 0, 0], 
+          "competitorData": [0, 0, 0, 0, 0, 0]
+        }
+      },
+      {
+        "id": "recoveryForecastChart",
+        "function": "createRecoveryForecastChart",
+        "canvasId": "recoveryForecastChart",
+        "data": {
+          "labels": ["HO25 (Actual)", "Pre-Holiday Prep (Jul–Aug 2025)", "Early Holiday (Sep–Oct 2025)", "Peak Holiday (Nov–Dec 2025)"],
+          "deliveryData": [0, 0, 0, 0], 
+          "revenueData": [0, 0, 0, 0]
+        }
+      }
+    ]
+  }
