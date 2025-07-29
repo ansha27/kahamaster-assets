@@ -296,6 +296,15 @@ footer p {
     font-weight: 500;
 }
 
+.insights ul ul {
+    margin-top: 4px;
+    padding-left: 20px;
+}
+.insights ul ul li {
+    list-style-type: circle;
+    margin-bottom: 2px;
+}
+
 @media (max-width: 768px) {
     .chart-grid {
         grid-template-columns: 1fr;
