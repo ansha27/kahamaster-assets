@@ -305,6 +305,22 @@ footer p {
     margin-bottom: 2px;
 }
 
+/* Status Tags */
+.status-neutral { color: #4a5568; font-weight: 600; }
+
+/* Benchmark Notes */
+.benchmark-note {
+    font-size: 13px;
+    color: #4a5568;
+    margin: 6px 0 12px 0;
+    padding-left: 18px;
+    border-left: 3px solid #e2e8f0;
+}
+.benchmark-note li {
+    list-style-type: square;
+    margin-bottom: 4px;
+}
+
 @media (max-width: 768px) {
     .chart-grid {
         grid-template-columns: 1fr;
